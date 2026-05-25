@@ -9,7 +9,9 @@ import {
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("/planet/scene.gltf");
+
+  if (!earth || !earth.scene) return null;
 
   return (
     <primitive

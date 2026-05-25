@@ -32,7 +32,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold flex flex-col leading-tight">
             Aniket Mahalappa Hadakar
             <span className="text-[14px] font-bold">
-              | Software Developer Engineer
+              | Software and Gen AI Developer Engineer
             </span>
           </p>
         </Link>
